@@ -1,0 +1,44 @@
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+input {
+    border: black 1px solid;
+    border-radius:  5px;
+    width: 200px;
+    margin: 5px;}
+label {
+    width: 100px;
+    display: inline-block;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+input[type="submit"] {
+    width: 400px;
+    background-color: rgb(0, 255, 94); 
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"] :hover {
+    background-color: pink;
+}
+input:focus {
+    border: solid black 5px;
+}
+
+
+/* }
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:;
+}
+input {
+    
+} */
